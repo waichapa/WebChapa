@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>waichapa</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="layout">
+  <div class="sidebar">
+    <img src="images/profilePicture.jpg" alt="avatar" class="profile-avatar">
+    <h1>waichapa</h1>
+    <div class="theme-switch">
+      <button class="theme-btn" id="themeToggle">🌙 Dark</button>
+    </div>
+    <div class="lang-switch">
+      <div class="lang-btn active" data-lang="ru">RU</div>
+      <div class="lang-btn" data-lang="en">EN</div>
+      <div class="lang-btn" data-lang="ko">KO</div>
+    </div>
+  </div>
+  
+  <div class="chart-container">
+    <canvas id="postsChart"></canvas>
+  </div>
+  
+  <div class="tags-bar" id="tagsBar"></div>
+  <div id="postsContainer"></div>
+</div>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
