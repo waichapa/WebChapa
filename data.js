@@ -53,7 +53,18 @@ const postsData = [
     },
     image: null,
     tags: ["programming"]
-  }
+  },
+  {
+    id: 6,
+    date: "2026-05-31",
+    text: {
+      ru: "скучно",
+      en: "boring",
+      ko: "심심해"
+    },
+    image: null,
+    tags: ["programming"]
+  },
 ];
 
 const uiText = {
